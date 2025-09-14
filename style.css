@@ -2,10 +2,18 @@
   height: 10vh;
   width: 100vw;
   overflow: scroll;
+  background-color: brown;
 }
 
 .thumbnails > img {
-  height: 9vh;
+  height: 10vh;
   width: auto;
-  justify-content: right;
+  justify-content: flex-end;
+}
+.displayContainer {
+  height: 10vh;
+  background-color: brown;
+}
+.footer {
+  background-color: rgb(48, 42, 165);
 }
